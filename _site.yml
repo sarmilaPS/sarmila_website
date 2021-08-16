@@ -1,0 +1,37 @@
+name: "website"
+title: "It's RStudio Time"
+theme: theme.css
+description: |
+  The personal website of Sarmila Pyatha Shrestha.
+base_url: https://www.sarmilashrestha.com.np
+output_dir: "_site"
+navbar:
+  #logo:
+  search: True
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Blog"
+      href: blog.html
+   # - text: "CV"
+    #  href: sarmila_cv.html
+    - icon: fa fa-github
+      href: https://github.com/sarmilaPS
+    - icon: fa fa-linkedin
+      href: https://www.linkedin.com/in/sarmila-pyatha-shrestha-438595102/
+    - icon: fa fa-rss
+      href: blog.xml 
+output: distill::distill_article
+
+google_analytics: "UA-128676462-1"
+
+twitter:
+  site: "@sarmila59031024"
+  creator: "@sarmila59031024"
+rss:
+  full_content: true
+collections:
+  posts:
+      categories: true
+      share: [twitter, linkedin]
+      citations: true
