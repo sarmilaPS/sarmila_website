@@ -1,0 +1,37 @@
+---
+title: "Sarmila Pyatha Shrestha"
+description: |
+  The personal website of Sarmila Pyatha Shrestha.
+site: distill::distill_website
+image: "sarmila.jpg"
+links:
+  - label: '<i class="fab fa-twitter"></i> Twitter'
+    url: "https://twitter.com/sarmila59031024"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/sarmilaPS"
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
+    url: "https://www.linkedin.com/in/sarmila-pyatha-shrestha-438595102/"
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:sarmilee9.sp@gmail.com"
+base_url: https://www.sarmilashrestha.com.np
+#preview: SPS.png
+twitter:
+  creator: "@sarmila59031024"
+  site: "@sarmila59031024"
+output:
+  postcards::jolla
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+ 
+Hi! <span class="wave">👋</span> I am a new comer from non IT background to this field. I have been enrolled in boot camp of data science from Reduct Nepal Pvt. LTd. I am a semi-qualified Chartered Accountant from ICAI. I love wrangling, analyzing, and visualizing data, and helping others do the same.
+
+
+This is a new line being added.
