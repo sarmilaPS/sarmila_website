@@ -34,4 +34,3 @@ knitr::opts_chunk$set(echo = FALSE)
 Hi! <span class="wave">👋</span> I am a new comer from non IT background to this field. I have been enrolled in boot camp of data science from Reduct Nepal Pvt. LTd. I am a semi-qualified Chartered Accountant from ICAI. I love wrangling, analyzing, and visualizing data, and helping others do the same.
 
 
-This is a new line being added.
