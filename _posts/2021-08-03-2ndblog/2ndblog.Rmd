@@ -1,0 +1,25 @@
+---
+title: "Cryptocurrency"
+description: |
+  21st Century Currency
+#medium:
+ # creator: "@sarmilee9.sp"
+author:
+  - name: Sarmila Pyatha Shrestha
+  #- url: www.medium.com
+  url: {}
+#base_url: https://www.medium.com/
+date: 08-03-2021
+preview: image_1.png
+output:
+  distill::distill_article:
+    self_contained: false
+medium:
+  site: "@sarmilee9.sp"
+  creator: "@sarmilee9.sp"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
